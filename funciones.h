@@ -12,3 +12,6 @@ void imprimirContactoXIndice(char nombreABuscar[],
                              char nombresDireccion[][2][30],
                              int numeros[],
                              int index);
+void editarContacto(char nombreABuscar[],
+                    char nombresDireccion[][2][30],
+                    int n);

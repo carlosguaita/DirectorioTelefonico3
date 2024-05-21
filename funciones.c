@@ -53,3 +53,9 @@ void imprimirContactoXIndice(char nombreABuscar[],
         printf("No existe el contacto %s en el registro\n",nombreABuscar);
     }
 }
+
+void editarContacto(char nombreABuscar[],
+                    char nombresDireccion[][2][30],
+                    int n){
+    strcpy(nombresDireccion[n][0],nombreABuscar);
+}

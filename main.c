@@ -30,6 +30,11 @@ int main (int argc, char *argv[]) {
             scanf("%s",&nombreAbuscar);
             int index = buscarContactoXNombre(nombresDireccion,nombreAbuscar,6);
             imprimirContactoXIndice(nombreAbuscar,nombresDireccion,numeros,index);
+        case 4:
+            printf("Ingrese el nombre que desea ingresar: ");
+            fflush(stdin);
+            scanf("%s",&nombreAbuscar);
+            editarContacto(nombreAbuscar,nombresDireccion,3);
         default:
             break;
         }
